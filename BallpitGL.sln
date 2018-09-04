@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UppGL", "UppGL\UppGL.vcxproj", "{A354C462-98A9-40C3-B459-C7B9625EECBA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BallpitGL", "BallpitGL\UppGL.vcxproj", "{A354C462-98A9-40C3-B459-C7B9625EECBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {501D041C-FDE8-4C9B-A163-B79911E2DD3C}
 	EndGlobalSection
 EndGlobal
