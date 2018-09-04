@@ -1,0 +1,33 @@
+Zu Implementieren:
+------------------
+Eine Quadratische Arena mit vielen bunten Bällen, welche sich in zufälligen
+Richtungen bewegen und miteinander kollidieren und voneinander abprallen.
+
+Blinn-Phong Shading Model mit Phong interpolation. Directional Light (Sun) 
+Camera schaut etwas schräg auf die Arena (4 Wände aus irgendeinem Material)
+Mehrere Lichter später implementieren. (Bälle leuchten)
+Bälle mit 2D Daten als 3D Bälle zeichnen.
+Bälle prallen an ArenaWänden ab.
+Bälle prallen aneinader ab.
+Kollisionen mit irgendeiner Datenstruktur verbessern.
+Einen eigenen Allocator schreiben.
+Das ganze Multithreaden. 
+Text-Rendering, GUI Layouts
+Deferred Rendering mit ganz vielen Lichtern
+Camera Matrizen selbst machen, Rotation mit Quarternions
+Optionen für Wireframe modus, Geometry Shader um Normals zu rendern
+Eigene Mathe Klasse mit den CPU-Vector Erweiterung support
+Eigenen Logger schreiben, initialize und shutdown als boolean
+Wieso sind Exceptions so schlecht in C++
+Eigene Datenstrukturen, Liste, Stack, Map usw...
+
+Implementierungs Plan:
+----------------------
+ECS programmieren und verstehen
+
+Mesh Klasse, mit der man Operationen auf allen Vertices ausführen kann, und VertexBuffer Klasse.
+Die Arena rendern, dazu eine ModelData Klasse, mit welcher man ein Mesh erstellen kann
+
+Notizen:
+--------
+Material ist ein Uniform
